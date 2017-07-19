@@ -1,0 +1,27 @@
+{
+  "name": "secondtest",
+  "version": "0.1.0",
+  "description": "App to encrypt files and folders",
+  "main": "App.js",
+  "scripts": {
+    "start": "node public/App.js",
+    "build": "babel src -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Spyrock"
+  },
+  "keywords": [
+    "App",
+    "Ransomware",
+    "GitHub",
+    "Security",
+    "Hacking"
+  ],
+  "author": "Andrés Montoya",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.0",
+    "tar-fs": "^1.15.3"
+  }
+}
